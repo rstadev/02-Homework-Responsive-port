@@ -1,0 +1,18 @@
+.section {
+    float: left;
+    margin: 100px;
+    background-color: lightgray;
+}
+.floatedtext {
+    float:left;
+    margin: 10px;
+}
+
+#bio-image {
+    float:left;
+    margin: 10px;
+}
+
+.alignment {
+    margin: 0 auto;
+}
