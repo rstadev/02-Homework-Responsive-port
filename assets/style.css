@@ -1,8 +1,33 @@
 .section {
     float: left;
-    margin: 100px;
-    background-color: lightgray;
+    margin: 50px;
+    background-color: lightslategray;
+    padding: 10px 0;
 }
+.contactDivs {
+    padding: 10px 10px;
+}
+.underline {
+    text-decoration: underline;
+}
+.dark {
+    color: black
+    
+}
+.removeUnderline {
+    text-decoration: none;
+}
+/* 
+    height: 10em;
+    position: relative } */
+#contactSection {
+    margin: 0;
+    background: lightslategrey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 .floatedtext {
     float:left;
     margin: 10px;
@@ -16,6 +41,49 @@
 
 }
 
-.alignment {
+/* .alignment {
     margin: 0 auto;
+    
+} */
+
+.btn-primary {
+    padding: 5px 10px;
+    
 }
+
+/* #resumeLink, #resumeLink:visited, #resumeLink:link {
+    color: tomato;
+    background-color:black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    left: 40%;
+
+} */
+
+/* .buttons, .buttons:visited, .buttons:link {
+    color: black;
+    background-color:lightslategray;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    margin-right: 20px;
+
+} */
+
+
+/* a, a:link, a:visited {
+    color: #FFFAFA;
+    text-decoration: none;
+    background-color: #778899;
+  }
+   */
