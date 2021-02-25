@@ -1,8 +1,18 @@
-.section {
-    float: left;
-    margin: 50px;
+.container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        background: #eee;
+        margin: 10px auto;
+        position: relative;
+        text-align:center;
+}
+#homeSection {
     background-color: lightslategray;
-    padding: 10px 0;
+    float: clear;
+    width: 50%;
+    height: 50%;
 }
 .contactDivs {
     padding: 10px 10px;
@@ -17,9 +27,11 @@
 .removeUnderline {
     text-decoration: none;
 }
-/* 
-    height: 10em;
-    position: relative } */
+.section {
+    margin: 0;
+    background: lightslategrey;
+    position: relative;
+}
 #contactSection {
     margin: 0;
     background: lightslategrey;
@@ -27,63 +39,72 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%)
+}
 .floatedtext {
-    float:left;
-    margin: 10px;
+        float:left;
+        margin: 10px;
 }
-
+    
 #bio-image {
-    float:left;
-    margin: 10px;
-    width : 464px;
-    height: 618px;
-
+        margin: 10px;
+        width: 30%;
+        height: 30%;
+        /* width : 464px;
+        height: 618px; */
+        
 }
-
-/* .alignment {
-    margin: 0 auto;
+.shrink {
+        width: 60%;
+        height: 60%;
+}
+    /* .alignment {
+        margin: 0 auto;
+        
+    } */
     
-} */
-
 .btn-primary {
-    padding: 5px 10px;
-    
+        padding: 5px 10px;
+        
 }
-
-/* #resumeLink, #resumeLink:visited, #resumeLink:link {
-    color: tomato;
-    background-color:black;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
-    top: 40%;
-    left: 40%;
-
-} */
-
-/* .buttons, .buttons:visited, .buttons:link {
-    color: black;
-    background-color:lightslategray;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
-    top: 40%;
-    left: 40%;
-    margin-right: 20px;
-
-} */
-
-
-/* a, a:link, a:visited {
-    color: #FFFAFA;
-    text-decoration: none;
-    background-color: #778899;
-  }
-   */
+    /* #resumeLink, #resumeLink:visited, #resumeLink:link {
+        color: tomato;
+        background-color:black;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        top: 40%;
+        left: 40%;
+        
+    } */
+    
+    /* .buttons, .buttons:visited, .buttons:link {
+        color: black;
+        background-color:lightslategray;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        top: 40%;
+        left: 40%;
+        margin-right: 20px;
+        
+    } */
+    
+    
+    /* a, a:link, a:visited {
+        color: #FFFAFA;
+        text-decoration: none;
+        background-color: #778899;
+    }
+    /* #contactSection {
+        float: left;
+        margin: 50px;
+        background-color: lightslategray;
+        padding: 10px 0;
+    } */
