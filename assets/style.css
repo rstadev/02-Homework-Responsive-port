@@ -11,6 +11,9 @@
 #bio-image {
     float:left;
     margin: 10px;
+    width : 464px;
+    height: 618px;
+
 }
 
 .alignment {
