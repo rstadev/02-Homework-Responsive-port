@@ -8,6 +8,9 @@
         position: relative;
         text-align:center;
 }
+#email {
+    color: blue
+}
 #homeSection {
     background-color: lightslategray;
     float: clear;
@@ -32,7 +35,7 @@
     margin: 0;
     background: lightslategrey;
     position: relative;
-    /* overflow: scroll; */
+    overflow: scroll;
 }
 #contactSection {
     margin: 0;

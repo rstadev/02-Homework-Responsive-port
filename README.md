@@ -4,4 +4,6 @@ This was a project in the Ga tech bootcamp. It is meant to be a functional resum
 
 Project can be found at https://rstadev.github.io/Portfolio/.
 
-![alt text](https://raw.githubusercontent.com/rstadev/Portfolio/main/assets/misc/Screenshot%202021-02-25%20160240.png)
+![Portfolio Image](https://raw.githubusercontent.com/rstadev/Portfolio/main/assets/misc/Screenshot%202021-02-25%20160240.png)
+
+![Portfolio Demo](https://raw.githubusercontent.com/rstadev/Portfolio/main/assets/misc/Portfoliodemo.gif)
