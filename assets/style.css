@@ -28,9 +28,11 @@
     text-decoration: none;
 }
 .section {
+    display: block;
     margin: 0;
     background: lightslategrey;
     position: relative;
+    /* overflow: scroll; */
 }
 #contactSection {
     margin: 0;
