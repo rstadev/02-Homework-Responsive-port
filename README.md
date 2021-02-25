@@ -6,4 +6,6 @@ Project can be found at https://rstadev.github.io/Portfolio/.
 
 ![Portfolio Image](https://raw.githubusercontent.com/rstadev/Portfolio/main/assets/misc/Screenshot%202021-02-25%20160240.png)
 
+
+Demo
 ![Portfolio Demo](https://raw.githubusercontent.com/rstadev/Portfolio/main/assets/misc/Portfoliodemo.gif)
